@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NorthwindWebsite", "..\..\..\..\Desktop\HT Products and Services\NorthwindWebsite\", "{ACED0F39-F95F-4FDB-8A9C-AF790DD4CF49}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{e9647b0a-b3ee-4dcd-a90f-455c543aae29}|NorthwindSystem.dll;{176023dd-2b93-4a44-bb8d-f7f076325ed4}|NorthwindSystem.Data.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_64016"
 		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\HT Products and Services\NorthwindWebsite\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64016\"
@@ -21,6 +22,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NorthwindWebsite", "..\..\.
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "64016"
+		SlnRelativePath = "..\..\..\..\Desktop\HT Products and Services\NorthwindWebsite\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
