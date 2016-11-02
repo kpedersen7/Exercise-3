@@ -3,7 +3,50 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NorthwindWebsite", "..\..\..\..\Desktop\HT Products and Services\NorthwindWebsite\", "{ACED0F39-F95F-4FDB-8A9C-AF790DD4CF49}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64016"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\HT Products and Services\NorthwindWebsite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64016\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64016"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\HT Products and Services\NorthwindWebsite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64016\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64016"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindSystem", "NorthwindSystem\NorthwindSystem.csproj", "{E9647B0A-B3EE-4DCD-A90F-455C543AAE29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindSystem.Data", "NorthwindSystem.Data\NorthwindSystem.Data.csproj", "{176023DD-2B93-4A44-BB8D-F7F076325ED4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACED0F39-F95F-4FDB-8A9C-AF790DD4CF49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACED0F39-F95F-4FDB-8A9C-AF790DD4CF49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACED0F39-F95F-4FDB-8A9C-AF790DD4CF49}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACED0F39-F95F-4FDB-8A9C-AF790DD4CF49}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E9647B0A-B3EE-4DCD-A90F-455C543AAE29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9647B0A-B3EE-4DCD-A90F-455C543AAE29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9647B0A-B3EE-4DCD-A90F-455C543AAE29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9647B0A-B3EE-4DCD-A90F-455C543AAE29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{176023DD-2B93-4A44-BB8D-F7F076325ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{176023DD-2B93-4A44-BB8D-F7F076325ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{176023DD-2B93-4A44-BB8D-F7F076325ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{176023DD-2B93-4A44-BB8D-F7F076325ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
